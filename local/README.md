@@ -16,27 +16,27 @@ current: v0.1.0
 ### v0.0.0
 support
 - [buhidoh.net](https://buhidoh.net)
-- [daretoku-eromanga.info](https://daretoku-eromanga.info)
+- [daretoku-eromanga.info](http://daretoku-eromanga.info) (connect on http)
 - [dd-smart.net](https://dd-smart.net)
-- [doujin-dolci.com](https://doujin-dolci.com)
-- [doujin-eromanga.com](https://doujin-eromanga.com)
+- [doujin-dolci.com](http://doujin-dolci.com) (connect on http)
+- [doujin-eromanga.com](http://doujin-eromanga.com) (connect on http)
 - [dousyoko.net](https://dousyoko.net)
 - [ero-comic-hunter.net](https://ero-comic-hunter.net)
 - [ero-manga-kingdom.com](https://ero-manga-kingdom.com)
 - [erocool.com](https://erocool.com)
-- [eromanga-ace.com](https://eromanga-ace.com)
+- [eromanga-ace.com](http://eromanga-ace.com) (connect on http)
 - [eromanga-collector.com](https://eromanga-collector.com)
-- [eromanga-mainichi.com](https://eromanga-mainichi.com)
+- [eromanga-mainichi.com](http://eromanga-mainichi.com) (connect on http)
 - [eromanga-milf.com](https://eromanga-milf.com)
 - [eromanga-school.com](https://eromanga-school.com)
-- [eromanga-search.com](https://eromanga-search.com)
-- [eromanga-select.com](https://eromanga-select.com)
+- [eromanga-search.com](http://eromanga-search.com) (connect on http)
+- [eromanga-select.com](http://eromanga-select.com) (connect on http)
 - [eromanga-yoru.com](https://eromanga-yoru.com)
 - [eromangacafe.com](https://eromangacafe.com)
 - [hentai-books.com](https://hentai-books.com)
-- [hime-book.net](https://hime-book.net)
+- [hime-book.net](http://hime-book.net) (connect on http)
 - [kairakudoujin.net](https://kairakudoujin.net)
-- [kankoredoujin.blog.fc2.com](https://kankoredoujin.blog.fc2.com)
+- [kankoredoujin.blog.fc2.com](http://kankoredoujin.blog.fc2.com) (connect on http)
 - [moeero-library.com](https://moeero-library.com)
 
 ### v0.1.0
@@ -53,11 +53,11 @@ support
 
 ### v0.1.1
 bug fix
-- [eromanga-mainichi.com](https://eromanga-mainichi.com)<br>
+- [eromanga-mainichi.com](http://eromanga-mainichi.com)<br>
   fix that "urlList" was not generated correctly for some pages
-- [eromanga-ace.com](https://eromanga-ace.com)<br>
+- [eromanga-ace.com](http://eromanga-ace.com)<br>
   fix that the next page's url was not get correctly
-- [eromanga-kingdom.com](https://eromanga-kingdom.com)<br>
+- [eromanga-kingdom.com](https://ero-manga-kingdom.com)<br>
   fix that "urlList" was not generated correctly for some pages
 - [moeero-library.com](https://moeero-library.com)<br>
   fix that "urlList" was not generated correctly for some pages<br>
@@ -69,20 +69,20 @@ bug fix
 
 ### v0.2.0
 support
-- [eromanga-celeb.com](https://eromanga-celeb.com)
+- [eromanga-celeb.com](http://eromanga-celeb.com) (connect on http)
 - [eromanga-jkschool.com](https://eromanga-jkschool.com)
 - [doujincafe.com](https://doujincafe.com)
 - [eroproject.com](https://eroproject.com)
 - [nijioma.blog](https://nijioma.blog)
-- [eromanga-kong.com](https://eromanga-kong.com)
-- [doujin-night.com](https://doujin-night.com)
+- [eromanga-kong.com](http://eromanga-kong.com) (connect on http)
+- [doujin-night.com](http://doujin-night.com) (connect on http)
 - [erodoujinjohoukan.com](https://erodoujinjohoukan.com)
 
 ### v0.3.0
 support
 - [doujinhibiki.net](https://doujinhibiki.net)
 - [eromanga-daisuki.com](https://eromanga-daisuki.com)
-- [hmangatomoe.net](https://hmangatomoe.net)
+- ~~[hmangatomoe.net](https://hmangatomoe.net)~~ (not found on 2021-07-26 10:44)
 - [mangalear.blog](https://mangalear.blog)
 - [nhentai.net](https://nhentai.net)
 
@@ -96,7 +96,7 @@ support
 ### v0.5.0
 support
 - [eromanganomori.com](https://eromanganomori.com)
-- [eromangafucks.com](https://eromangafucks.coms)
+- [eromangafucks.com](https://eromangafucks.com)
 - [itaeromanga.com](https://itaeromanga.com)
 - [ja.nyahentai.com](https://ja.nyahentai.com)
 
@@ -107,7 +107,7 @@ acceleration
 ### v0.6.0
 support
 - [dojinwatch.com](https://dojinwatch.com)
-- [manga100ka.jp](https://manga100ka.jp)
+- [manga100ka.jp](http://manga100ka.jp) (connect on http)
 
 ### v0.6.1
 bug fix
