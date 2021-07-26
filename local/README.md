@@ -111,20 +111,20 @@ support
 
 ### v0.6.1
 bug fix
-- pixiv.net にて複数の画像がある場合に展開されない不具合に対応
+- fix in pixiv.net that images list don't expand when there are some images
 
 ### v0.7.0
 enhancement
-- eromanga-time.com シリーズ一気表示機能の追加
+- eromanga-time.com : add function to display series at once
 
 bug fix
-- eromanga-collector.com の一部のページでimgdomが正しく取得できていない問題を修正
-- eromangacafe.com の一部のページでsrcsetParserが正しく動作していない問題を修正
+- fix a problem where some pages on eromanga-collector.com are not getting the correct "imgdom" 
+- fix a problem where "srcseParset" is not working on some pages of eromangacafe.com
 
 ### v0.8.0
 enhancement
-- eromanga-yoru.com シリーズ一気表示機能の追加
-- eromanga-collector.com シリーズ一気表示機能の追加
+- eromanga-yoru.com : add function to display series at once
+- eromanga-collector.com : add function to display series at once
 
 ### v1.0.0 (in progress)
 transition in progress ... ... ...
