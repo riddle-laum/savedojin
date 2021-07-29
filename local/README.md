@@ -29,7 +29,7 @@ current: v0.1.0
 | [erodoujinshi-world.com](https://erodoujinshi-world.com) | |
 | [eromanga-ace.com](http://eromanga-ace.com) | |
 | [eromanga-celeb.com](http://eromanga-celeb.com) (connect on http) | |
-| [eromanga-collector.com](https://eromanga-collector.com) | |
+| [eromanga-collector.com](https://eromanga-collector.com) | [x] |
 | [eromanga-daisuki.com](https://eromanga-daisuki.com) | |
 | [eromanga-jkschool.com](https://eromanga-jkschool.com) | |
 | [eromanga-kingdom.com](https://ero-manga-kingdom.com) | |
@@ -39,9 +39,9 @@ current: v0.1.0
 | [eromanga-school.com](https://eromanga-school.com) | |
 | [eromanga-search.com](http://eromanga-search.com) (connect on http) | |
 | [eromanga-select.com](http://eromanga-select.com) (connect on http) | |
-| [eromanga-time.com](https://eromanga-time.com) | |
+| [eromanga-time.com](https://eromanga-time.com) | [x] |
 | [eromanga-yasan.com](https://eromanga-yasan.com) | |
-| [eromanga-yoru.com](https://eromanga-yoru.com) | |
+| [eromanga-yoru.com](https://eromanga-yoru.com) | [x] |
 | [eromangacafe.com](https://eromangacafe.com) | |
 | [eromangafucks.com](https://eromangafucks.com) | |
 | [eromanganomori.com](https://eromanganomori.com) | |
