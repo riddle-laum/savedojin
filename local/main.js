@@ -4,7 +4,7 @@
 const savedojin = {};
 
 // constant
-savedojin.version = 'v1.0.0';
+savedojin.version = 'v1.0.1';
 
 // ----- main ----- //
 savedojin.main = async ()=>{
@@ -17,12 +17,11 @@ savedojin.main = async ()=>{
   
   // call module
   if(savedojin.modules[domain]) await savedojin.deploy(await savedojin.modules[domain].main());
-  else console.warn('[savedojin]', `"${domain}" is ot supported`), alert(`[savedojin] "${domain}" is not supported`);
+  else console.warn('[savedojin]', `"${domain}" is not supported`), alert(`[savedojin] "${domain}" is not supported`);
 };
 
 // ----- deploy ----- //
 savedojin.deploy = async ({urls, title})=>{
-  console.log(urls);
   if(!(urls instanceof Array) || !urls.length) throw new Error('invalid value in "urls"');
   let dom = document.createElement('html');
   dom.appendChild(document.createElement('head'));
@@ -54,6 +53,7 @@ savedojin.assets = {
         const [_url, _size] = val.match(/[^\s].+ [0-9]+w/g)[0].split(' ');
         sizes[+_size.split('w')[0]] = _url;
       }
+      if(!Object.keys(sizes).length) continue;
       urls.push(sizes[Object.keys(sizes).reduce((a,b)=>a>b?a:b)]); // getmax
     }
     return urls;
@@ -148,10 +148,13 @@ savedojin.modules = {
   'doujincafe.com': {
     main: ()=>{
       const r = {urls:[],title:''};
+      let srcsetFlag = true;
+      if(!document.querySelector('.kijibox > p > a > img').srcset) srcsetFlag = false;
       for(let dom of document.querySelectorAll('.kijibox > p > a > img'))
-        if(dom.className.indexOf('wp-image-') != -1)
-          r.urls.push(dom.srcset);
-      r.urls = srcsetParse(r.urls);
+        if(dom.className.match(/pict|wp-image-.+/g))
+          r.urls.push(dom.src ? dom.src : dom.srcset);
+      if(srcsetFlag)
+        r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'doujincafe-' + location.href.split('/')[3].split('.')[0];
       return r;
     }
@@ -234,10 +237,10 @@ savedojin.modules = {
       return r;
     }
   },
-  'erodoujinjohoukan': {
+  'erodoujinjohoukan.com': {
     main: ()=>{
       const r = {urls:[],title:''};
-      for(var dom of document.querySelectorAll('.ently_text > p > a > img'))
+      for(var dom of document.querySelectorAll('.ently_text a > img'))
         r.urls.push(dom.src);
       r.title = 'erodoujinnjohoukan-' + location.href.split('/')[3];
       return r;
@@ -247,7 +250,7 @@ savedojin.modules = {
     main: ()=>{
       const r = {urls:[],title:''};
       for(var dom of document.querySelectorAll('.kijibox img')) r.urls.push(dom.srcset);
-      r.urls = srcsetParse(r.urls);
+      r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'erodoujinshi-world-' + location.href.split(/\.|\//)[4];
       return r;
     }
@@ -554,7 +557,7 @@ savedojin.modules = {
   'itaeromanga.com': {
     main: ()=>{
       const r = {urls:[],title:''};
-      for(var dom of document.querySelectorAll('.entry-content > img'))
+      for(var dom of document.querySelectorAll('.entry-content img'))
         if(dom.srcset) r.urls.push(dom.srcset);
       r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'itaeromanga-' + location.href.split('/').pop();
@@ -607,10 +610,10 @@ savedojin.modules = {
       return r;
     }
   },
-  'mangalear.blog': {
+  'www.mangalear.blog': {
     main: ()=>{
       const r = {urls:[],title:''};
-      for(var dom of document.querySelectorAll('#the-content a > img')) r.urls.push(dom.srcset);
+      for(var dom of document.querySelectorAll('#the-content a > img')) r.urls.push(dom.srcset ? dom.srcset : dom.dataset.lazySrcset);
       r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'mangalear-' + location.href.split('/')[4].split('doujinshi-')[1];
       return r;

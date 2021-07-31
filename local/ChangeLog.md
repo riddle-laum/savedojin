@@ -1,5 +1,14 @@
 # ChangeLog
 
+## v1.0.1 (in progress)
+bug fix
+- fix function that get max value in srcsetParser sometimes run to empty arrays, and throw error.
+- fix at [www.mangalear.blog](https://www.mangalear.blog) cannot get img srcset before scroll.
+- fix at [itaeromanga.com](https://itaeromanga.com) sometimes cannot get imglist.
+- fix in some modules, srcsetParse to savedojin.assets.srcsetParse.
+- fix modulename 'erodoujinjohoukan' to 'erodoujinjohoukan.com'
+- fix at [erodoujinjohoukan.com](https://erodoujinjohoukan.com/) sometimes cannot get correct imglist.
+
 ## v1.0.0
 - transition old repository to new(this) repository
 - change object tree
