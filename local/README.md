@@ -1,6 +1,7 @@
 # local
 
 current: v0.1.0
+=> [changelog](./ChangeLog.md)
 
 ## usage
 1. create a new bookmark and paste the entire text from [main.min.js](./main.min.js) into the url section
