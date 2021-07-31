@@ -114,4 +114,5 @@ enhancement
 - [eromanga-collector.com](https://eromanga-collector.com) : add function to display series at once
 
 ## v1.0.0 (in progress)
-transition in progress ...
+- transition old repository to new(this) repository
+- change object tree
