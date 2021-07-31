@@ -1,6 +1,6 @@
 # ChangeLog
 
-## v1.0.1 (in progress)
+## v1.0.1
 bug fix
 - fix function that get max value in srcsetParser sometimes run to empty arrays, and throw error.
 - fix at [www.mangalear.blog](https://www.mangalear.blog) cannot get img srcset before scroll.
