@@ -8,6 +8,7 @@ bug fix
 - fix in some modules, srcsetParse to savedojin.assets.srcsetParse.
 - fix modulename 'erodoujinjohoukan' to 'erodoujinjohoukan.com'
 - fix at [erodoujinjohoukan.com](https://erodoujinjohoukan.com/) sometimes cannot get correct imglist.
+- fix modulename 'pixiv.net' to 'www.pixiv.net'
 
 ## v1.0.0
 - transition old repository to new(this) repository
@@ -28,7 +29,7 @@ bug fix
 
 ## v0.6.1
 bug fix
-- fix in [pixiv.net](https://pixiv.net) that images list don't expand when there are some images
+- fix in [www.pixiv.net](https://www.pixiv.net) that images list don't expand when there are some images
 
 ## v0.6.0
 support
@@ -51,7 +52,7 @@ add assets
 - sleep(delay)
 
 support
-- [pixiv.net](https://pixiv.net)
+- [www.pixiv.net](https://www.pixiv.net)
 
 ## v0.3.0
 support

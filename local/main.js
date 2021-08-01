@@ -675,7 +675,7 @@ savedojin.modules = {
       return r;
     }
   },
-  'pixiv.net': {
+  'www.pixiv.net': {
     main: async ()=>{
       const r = {urls:[],title:''};
       let temp, extend = null;

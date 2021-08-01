@@ -62,5 +62,5 @@ current: v1.0.1<br>
 | [nijioma.blog](https://nijioma.blog) | |
 | [nukemanga.com](https://nukemanga.com) | |
 | [oreno-erohon.com](https://oreno-erohon.com) | |
-| [pixiv.net](https://pixiv.net) | |
+| [pixiv.net](https://www.pixiv.net) | |
 | [無料同人誌.com (xn--gmq92kd2rm1kx34a.com)](https://xn--gmq92kd2rm1kx34a.com) | |
