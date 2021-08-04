@@ -228,7 +228,7 @@ savedojin.modules = {
       return r;
     }
   },
-  'erocool.com': {
+  'ja.erocool.com': {
     main: ()=>{
       const r = {urls:[],title:''};
       for(var dom of document.querySelectorAll('.vimg')) r.urls.push(dom.dataset.src);

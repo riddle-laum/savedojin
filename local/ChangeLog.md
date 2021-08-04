@@ -9,6 +9,7 @@ bug fix
 - fix modulename 'erodoujinjohoukan' to 'erodoujinjohoukan.com'
 - fix at [erodoujinjohoukan.com](https://erodoujinjohoukan.com/) sometimes cannot get correct imglist.
 - fix modulename 'pixiv.net' to 'www.pixiv.net'
+- fix modulename 'erocool.com' to 'ja.erocool.com'
 
 ## v1.0.0
 - transition old repository to new(this) repository
