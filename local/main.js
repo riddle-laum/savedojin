@@ -411,7 +411,7 @@ savedojin.modules = {
       const r = this.getImgUrl(document);
       r.title = 'eromanga-time-' + r.title;
       for(var url of this.getSeriesUrl()){
-        var {urls} = this.getImgUrl(srcsetParse, new DOMParser().parseFromString(await fetch(url).then(res=>res.text()), 'text/html'));
+        var {urls} = this.getImgUrl(new DOMParser().parseFromString(await fetch(url).then(res=>res.text()), 'text/html'));
         r.urls.push(...urls);
         r.title += '-' + url.split('/')[4];;
       }
