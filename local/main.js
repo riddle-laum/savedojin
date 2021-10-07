@@ -4,7 +4,7 @@
 const savedojin = {};
 
 // constant
-savedojin.version = 'v1.0.1';
+savedojin.version = 'v1.0.2';
 
 // ----- main ----- //
 savedojin.main = async ()=>{
