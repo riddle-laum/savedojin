@@ -9,8 +9,8 @@ current: v1.0.1<br>
 1. if you want to save a batch of images, save all the pages. only the images of the dojinshishould be saved.
 
 ## support
-| page name | get series |
-|:--|:--:|
+| page name | get series | other |
+|:--|:--:|:--|
 | [buhidoh.net](https://buhidoh.net) | |
 | [daretoku-eromanga.info](http://daretoku-eromanga.info) (connect on http) | |
 | [dd-smart.net](https://dd-smart.net) | |
@@ -45,7 +45,7 @@ current: v1.0.1<br>
 | [eromanga-yoru.com](https://eromanga-yoru.com) | support |
 | [eromangacafe.com](https://eromangacafe.com) | |
 | [eromangafucks.com](https://eromangafucks.com) | |
-| [eromanganomori.com](https://eromanganomori.com) | |
+| [eromanganomori.com](https://eromanganomori.com) | | not found (connect to froud page) |
 | [eromangaosa-mu.com](https://eromangaosa-mu.com) | |
 | [eroproject.com](https://eroproject.com) | |
 | [hentai-books.com](https://hentai-books.com) | |

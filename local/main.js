@@ -61,6 +61,16 @@ savedojin.assets = {
   sleep: async (delay)=>{
     if(+delay !== +delay || delay < 1) return;
     await new Promise(resolve=>setTimeout(()=>resolve(), delay));
+  },
+  queryParamParser: (locate)=>{
+    let param = locate.split('?')[1];
+    if(!param) return null;
+    let obj = {};
+    for(const val of param.split(/&/g)){
+      const [key, value] = val.split('=');
+      obj[key] = value ? value : true;
+    }
+    return obj;
   }
 };
 
@@ -69,7 +79,9 @@ savedojin.modules = {
   'buhidoh.net': {
     main: ()=>{
       const r =  {urls:[],title:''};
-      for(var dom of document.querySelectorAll('.ently_text > a')) r.urls.push(dom.href);
+      if(document.querySelectorAll('.ently_text > a').length)
+        for(var dom of document.querySelectorAll('.ently_text > a')) r.urls.push(dom.href);
+      else for(var dom of document.querySelectorAll('.ently_text > p > a')) r.urls.push(dom.href);
       r.title = 'buhidoh-' + location.href.split(/\/|\./g)[4];
       return r;
     }
@@ -89,12 +101,7 @@ savedojin.modules = {
       var locate = location.href;
       if(location.href.indexOf('show-m') != -1 || location.href.indexOf('all=true') == -1){
         // in info page (not img list page or pdf page)
-        let queryParameter = {};
-        for(let param of location.href.split('?')[1].split('&')){
-          if(typeof(param) !== 'string' || param.split('=').length < 2) throw new Error('query parameter parse error');
-          let [key, value] = param.split('=');
-          queryParameter[key] = value;
-        }
+        let queryParameter = savedojin.assets.queryParamParser(location.href);
         if(!queryParameter.cn && (!queryParameter.g || !queryParameter.dir)) throw new Error('invalid query parameter');
         locate = `http://${location.hostname}/dl-m-m.php?cn=` + queryParameter.g + '/' + queryParameter.dir + '&all=true&from=img';
         if(queryParameter.cn) locate = `http://${location.hostname}/dl-m-m.php?cn=` + queryParameter.cn + '&all=trube&from=img';
@@ -152,7 +159,7 @@ savedojin.modules = {
       if(!document.querySelector('.kijibox > p > a > img').srcset) srcsetFlag = false;
       for(let dom of document.querySelectorAll('.kijibox > p > a > img'))
         if(dom.className.match(/pict|wp-image-.+/g))
-          r.urls.push(dom.src ? dom.src : dom.srcset);
+          r.urls.push(dom.srcset ? dom.srcset : dom.src);
       if(srcsetFlag)
         r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'doujincafe-' + location.href.split('/')[3].split('.')[0];
@@ -212,7 +219,7 @@ savedojin.modules = {
       const r = {urls:[],title:''};
       for(var dom of document.querySelectorAll('.entry-content .alignnone'))
         if(dom.srcset) r.urls.push(dom.srcset);
-      r.urls = srcsetParse(r.urls);
+      r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'eromanga-life-' + location.href.split(/\/|\./)[4];
       return r;
     }
@@ -479,10 +486,15 @@ savedojin.modules = {
   'eromangacafe.com': {
     main: ()=>{
       const r = {urls:[],title:''};
+      let isUseSrcset = true;
       for(var dom of document.querySelectorAll('.kijibox p img'))
         if(dom.srcset) r.urls.push(dom.srcset);
-      if(!r.urls.length) for(var dom of document.querySelectorAll('.kijibox p > a')) r.urls.push(dom.href);
-      else r.urls = savedojin.assets.srcsetParse(r.urls);
+        else{
+          isUseSrcset = false;
+          r.urls.push(dom.src);
+        }
+      if(!r.urls.length && isUseSrcset) for(var dom of document.querySelectorAll('.kijibox p > a')) r.urls.push(dom.href);
+      else if(!r.urls.length) r.urls = savedojin.assets.srcsetParse(r.urls);
       r.title = 'eromanga-cafe-' + location.href.split(/\.|\//)[4];
       return r;
     }
