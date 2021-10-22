@@ -5,7 +5,7 @@ remove the useless parts of dojinshi-site (like a advertisement) and display onl
 old-repository: [savedojin-old](https://github.com/riddle-laum/savedojin-old/)<br>
 &nbsp;&nbsp;(after the migration is complete, [savedojin-old](https://github.com/riddle-laum/savedojin-old/) should be made private)
 
-[savedojin-make submodule](../sd-make)
+[savedojin-make submodule](https://github.com/riddle-laum/sd-make)
 
 ## about details
 <!-- - [es6-module](./es6-moduule/README.md) -->
