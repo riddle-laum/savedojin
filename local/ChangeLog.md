@@ -5,7 +5,7 @@ bug fix
 - fix at [eromangacafe.com](https://eromangacafe.com) sometimes cannot get imglist.
 - fix at [buhidoh.net](https://buhidoh.net) sometimes cannot get imglist.
 - fix at [doujincafe.com](https://doujincafe.com) sometimes cannot get imglist (preference was given to src instead of srcset).
-- fix at [ddd-smart.com](https://ddd-smart.com) sometimes cannot move to list page.
+- fix at [ddd-smart.net](https://ddd-smart.net) sometimes cannot move to list page.
 
 ## v1.0.1
 bug fix
