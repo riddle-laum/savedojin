@@ -6,6 +6,10 @@ about make source code
 
 bug fix
 - fix at [無料同人誌.com](https://xn--gmq92kd2rm1kx34a.com/), "/rar/line-?/\[category]/\[id]" url pattern, the id is not qniquery determined.
+- fix at [ja.erocool2.com](https://ja.erocool2.com/), generated id is not contain "erocool-" prefix.
+
+support
+- domain of [ja.erocool.com](https://ja.erocool2.com/) is moved to [ja.erocool2.com](https://ja.erocool2.com/)
 
 ## v1.0.2
 bug fix

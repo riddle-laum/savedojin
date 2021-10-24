@@ -29,7 +29,7 @@ maketool: [savedojin-make submodule](https://github.com/riddle-laum/sd-make)
 | [ero-manga-kingdom.com](https://ero-manga-kingdom.com) | |
 | [ero-mangalife.com](https://ero-mangalife.com) | |
 | [ero-mangasokuhou.com](https://ero-mangasokuhou.com) | |
-| [erocool.com](https://erocool.com) | |
+| [ja.erocool2.com](https://ja.erocool2.com/) | |
 | [erodoujinjohoukan.com](https://erodoujinjohoukan.com) | |
 | [erodoujinshi-world.com](https://erodoujinshi-world.com) | |
 | [eromanga-ace.com](http://eromanga-ace.com) | | connect on http |
