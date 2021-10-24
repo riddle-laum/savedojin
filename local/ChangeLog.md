@@ -1,5 +1,12 @@
 # ChangeLog
 
+## v1.0.3
+about make source code
+- change in source code generation, with sd-make instead.
+
+bug fix
+- fix at [無料同人誌.com](https://xn--gmq92kd2rm1kx34a.com/), "/rar/line-?/\[category]/\[id]" url pattern, the id is not qniquery determined.
+
 ## v1.0.2
 bug fix
 - fix at [eromangacafe.com](https://eromangacafe.com) sometimes cannot get imglist.
