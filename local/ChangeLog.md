@@ -10,6 +10,8 @@ bug fix
 
 support
 - domain of [ja.erocool.com](https://ja.erocool2.com/) is moved to [ja.erocool2.com](https://ja.erocool2.com/)
+- domain of [dousyoko.net](http://www.dousyoko.net/) is moved to [www.dosyoko.net](http://www.dousyoko.net/)
+- domain of [eromangacafe.com](https://eromanga-cafe.com/) is moved to [eromanga-cafe.com](https://eromanga-cafe.com/)
 
 ## v1.0.2
 bug fix

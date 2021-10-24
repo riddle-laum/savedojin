@@ -1,4 +1,4 @@
-// [eromangacafe.com]
+// [eromanga-cafe.com]
 main = {
   main: ()=>{
     const r = {urls:[],title:''};

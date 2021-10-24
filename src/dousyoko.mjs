@@ -1,4 +1,4 @@
-// [dousyoko.net]
+// [www.dousyoko.net]
 main = {
   main: ()=>{
     const r = {urls:[],title:''};

@@ -24,7 +24,7 @@ maketool: [savedojin-make submodule](https://github.com/riddle-laum/sd-make)
 | [doujin-night.com](http://doujin-night.com) | | connect on http |
 | [doujincafe.com](https://doujincafe.com) | |
 | [doujinhibiki.net](https://doujinhibiki.net) | |
-| [dousyoko.net](https://dousyoko.net) | |
+| [www.dousyoko.net](https://www.dousyoko.net) | |
 | [ero-comic-hunter.net](https://ero-comic-hunter.net) | |
 | [ero-manga-kingdom.com](https://ero-manga-kingdom.com) | |
 | [ero-mangalife.com](https://ero-mangalife.com) | |
@@ -47,7 +47,7 @@ maketool: [savedojin-make submodule](https://github.com/riddle-laum/sd-make)
 | [eromanga-time.com](https://eromanga-time.com) | support |
 | [eromanga-yasan.com](https://eromanga-yasan.com) | |
 | [eromanga-yoru.com](https://eromanga-yoru.com) | support |
-| [eromangacafe.com](https://eromangacafe.com) | |
+| [eromanga-cafe.com](https://eromanga-cafe.com) | |
 | [eromangafucks.com](https://eromangafucks.com) | |
 | ~~[eromanganomori.com](https://eromanganomori.com)~~ | | not found (connect to froud page) on 2021-10-11 07:01 +0900JST |
 | [eromangaosa-mu.com](https://eromangaosa-mu.com) | |

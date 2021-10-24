@@ -5,7 +5,7 @@
 const savedojin = {};
 
 // constant
-savedojin.version = '1.0.2+4'
+savedojin.version = '1.0.3+0'
 
 // ----- main ----- //
 savedojin.main = async ()=>{
@@ -241,7 +241,7 @@ savedojin.modules = {
       return r;
     }
   },
-  'dousyoko.net':  {
+  'www.dousyoko.net':  {
     main: ()=>{
       const r = {urls:[],title:''};
       for(var dom of document.querySelectorAll('.ently_text a[target=_blank]')) r.urls.push(dom.href);
@@ -258,7 +258,7 @@ savedojin.modules = {
       return r;
     } 
   },
-  'eromangacafe.com':  {
+  'eromanga-cafe.com':  {
     main: ()=>{
       const r = {urls:[],title:''};
       let isUseSrcset = true;
