@@ -1,5 +1,13 @@
 # ChangeLog
 
+## v1.0.4
+bug fix
+- fix [ddd-smart.net](https://ddd-smart.net) module was register instead of [daretoku-eromanga.info](daretoku-eromanga.info), so neither of them didn't work right.
+- fix [kairakudoujin.net](http://kairakudoujin.net/) sometimes cannot get url-list.
+
+support
+- [ja.erocool.com](https://ja.erocool.com/)'s 2 domains. ([ja.erocool.com](https://ja.erocool.com/) and [ja.erocool2.com](https://ja.erocool2.com/))
+
 ## v1.0.3
 about make source code
 - change in source code generation, with sd-make instead.

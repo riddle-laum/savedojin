@@ -5,7 +5,7 @@
 const savedojin = {};
 
 // constant
-savedojin.version = '1.0.3+0'
+savedojin.version = '1.0.4+2'
 
 // ----- main ----- //
 savedojin.main = async ()=>{
@@ -200,7 +200,7 @@ savedojin.modules = {
       return r;
     }
   },
-  'daretoku-eromanga.info':  {
+  'ddd-smart.net':  {
     main: async ()=>{
       var parent = document;
       var locate = location.href;
@@ -248,6 +248,15 @@ savedojin.modules = {
       r.title = 'dousyoko-' + location.href.split('-')[2].split('.')[0];
       return r;
     }
+  },
+  'ja.erocool.com':  {
+    main: ()=>{
+      const r = {urls:[],title:''};
+      for(var dom of document.querySelectorAll('.vimg')) r.urls.push(dom.dataset.src);
+      var locate;
+      r.title = 'ercool-' +(([(locate = location.href.split(/\/|\./g)).length - 1] == '' || locate[locate.length - 1] == 'html') ? locate[locate.length - 2] : locate[locate.length - 1]);
+      return r;
+    } 
   },
   'ja.erocool2.com':  {
     main: ()=>{

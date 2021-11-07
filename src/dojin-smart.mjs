@@ -1,4 +1,4 @@
-// [daretoku-eromanga.info]
+// [ddd-smart.net]
 main = {
   main: async ()=>{
     var parent = document;

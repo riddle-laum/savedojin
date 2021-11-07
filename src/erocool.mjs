@@ -1,4 +1,4 @@
-// [ja.erocool2.com]
+// [ja.erocool.com]
 main = {
   main: ()=>{
     const r = {urls:[],title:''};
