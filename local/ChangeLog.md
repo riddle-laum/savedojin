@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v1.0.5
+bug fix
+- fix savedojin isnot parse srcset at [eromanga-cafe.com](https://eromanga-cafe.com/) .
+
 ## v1.0.4
 bug fix
 - fix [ddd-smart.net](https://ddd-smart.net) module was register instead of [daretoku-eromanga.info](daretoku-eromanga.info), so neither of them didn't work right.
