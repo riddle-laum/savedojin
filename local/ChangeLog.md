@@ -1,5 +1,10 @@
 # ChangeLog
 
+## v1.1.0
+support
+- [moeshunga.com](https://moeshunga.com)
+- [dechamora.com](https://dechamora.com)
+
 ## v1.0.5
 bug fix
 - fix savedojin isnot parse srcset at [eromanga-cafe.com](https://eromanga-cafe.com/) .

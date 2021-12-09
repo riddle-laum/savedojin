@@ -18,6 +18,7 @@ maketool: [savedojin-make submodule](https://github.com/riddle-laum/sd-make)
 | [buhidoh.net](https://buhidoh.net) | |
 | [daretoku-eromanga.info](http://daretoku-eromanga.info) | | connect on http |
 | [ddd-smart.net](https://ddd-smart.net) | |
+| [dechamora.com](https://dechamora.com) | |
 | [dojinwatch.com](https://dojinwatch.com) | |
 | [doujin-dolci.com](http://doujin-dolci.com) | | connect on http |
 | [doujin-eromanga.com](http://doujin-eromanga.com) | | connect on http |
@@ -62,6 +63,7 @@ maketool: [savedojin-make submodule](https://github.com/riddle-laum/sd-make)
 | [manga100ka.jp](http://manga100ka.jp) | | connect on http |
 | [mangalear.blog](https://mangalear.blog) | |
 | [moeero-library.com](https://moeero-library.com) | |
+| [moeshunga.com](https://moeshunga.com) | |
 | [nhentai.net](https://nhentai.net) | |
 | [nijioma.blog](https://nijioma.blog) | |
 | [nukemanga.com](https://nukemanga.com) | |

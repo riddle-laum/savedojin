@@ -5,7 +5,7 @@
 const savedojin = {};
 
 // constant
-savedojin.version = '1.0.5+0'
+savedojin.version = '1.1.0+0'
 
 // ----- main ----- //
 savedojin.main = async ()=>{
@@ -176,6 +176,15 @@ savedojin.modules = {
       var locate;
       for(var dom of document.querySelectorAll('.article a')) r.urls.push(dom.href);
       r.title = 'daretoku-eromanga-' + (locate = location.href.split('/'))[locate.length - 1];
+      return r;
+    }
+  },
+  'dechamora.com':  {
+    main: ()=>{
+      const r = {urls:[],title:''};
+      for(const dom of document.querySelectorAll('img.alignnone'))
+        r.urls.push(dom.parentNode.href);
+      r.title = 'dechamora' + location.pathname.replace(/\//g, '-');
       return r;
     }
   },
@@ -478,6 +487,15 @@ savedojin.modules = {
       var locate = location.href.split('/');
       if(locate[locate.length - 1] == '') r.title = 'eromanga-milf-' + locate[locate.length - 3].replace('%','') + '-' + locate[locate.length - 2];
       else r.title = 'eromanga-milf-' + locate[locate.length - 2].replace(/%/g,'') + '-' + locate[locate.length - 1];
+      return r;
+    }
+  },
+  'moeshunga.com':  {
+    main: ()=>{
+      const r = {urls:[],title:''};
+      for(const dom of document.querySelectorAll('.mb20 > img'))
+        r.urls.push(dom.src ? dom.src : '');
+      r.title = 'moeshunga-' + location.pathname.replace(/\//g, '').split(/\./)[0];
       return r;
     }
   },
