@@ -1,6 +1,6 @@
 # local
 
-current: v1.0.5<br>
+current: v1.1.0<br>
 => [changelog](./ChangeLog.md)
 
 ## usage
