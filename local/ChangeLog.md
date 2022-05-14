@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v1.1.1
+bug fix
+- fix on [some parts of dechamora.com](http://dechamora.com/archives/16846) cannot get urls.
+
 ## v1.1.0
 support
 - [moeshunga.com](https://moeshunga.com)
