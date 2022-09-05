@@ -1,0 +1,17 @@
+{
+  "name": "savedojin",
+  "version": "2.0.0",
+  "description": "remove the useless parts of dojinshi-site (like a advertisement) and display only images",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riddle-laum/savedojin.git"
+  },
+  "author": "riddle-laum",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/riddle-laum/savedojin/issues"
+  },
+  "homepage": "https://github.com/riddle-laum/savedojin#readme"
+}

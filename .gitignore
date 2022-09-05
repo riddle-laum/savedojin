@@ -1,2 +1,4 @@
-*.exe
+*_
 dev/
+*.exe
+node_modules
